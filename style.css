@@ -1,0 +1,84 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+html
+{
+    display: flex;
+    background: linear-gradient(to right, rgb(5, 5, 5), rgb(10, 10, 21), #0e082b);
+    justify-content: center;
+    text-align: center;
+}
+
+#profile_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+    padding: 10px;
+}
+
+.list
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+.card
+{
+    background-color: #ffffff;
+    height: 700px;
+    width:900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(244, 244, 244);
+}
+
+
+.header
+{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+.name
+{
+    color: #2a177f;
+}
+
+button
+{
+    height: 70px;
+    width: 140px;
+    background-color: #4086d7;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #4086d7;
+    transition: 0.3s;
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+i{
+    height: 20px;
+    width: 20px;
+}
+
+.links
+{
+    font-size: 30px;
+}
+
+a{
+    color: black;
+}
